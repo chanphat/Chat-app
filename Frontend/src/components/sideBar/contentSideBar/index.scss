@@ -1,0 +1,79 @@
+.service-menu {
+    flex: 1 1;
+    display: flex;
+    flex-direction: column;
+    max-height: 90vh;
+    .list-view {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        overflow: scroll;
+        overflow-x: hidden;
+        // &::-webkit-scrollbar-track
+        // {
+        //     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+        //     background-color: #F5F5F5;
+        // }
+
+        &::-webkit-scrollbar
+        {
+            width: 0.5em;
+            background-color: #F5F5F5;
+        }
+
+        &::-webkit-scrollbar-thumb
+        {
+            background-color: #000000;
+            border: 2px solid #555555;
+        }
+        .active {
+            background-color: rgba(199, 237, 252, 1);
+        }
+        li {
+            flex: 1;
+            display: flex;
+            flex-direction: row;
+            max-height: 5vh;
+            padding: 0.5em 1em;
+            &:hover {
+                background-color: rgba(220, 241, 250, 1);
+            }            
+            .icon-user {
+                img {
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 50%;
+                    object-fit: cover;
+                }
+            }
+            .content-chat {
+                flex: 4 1;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                padding-left: 0.5em;
+                flex-direction: column;
+                .group-content, .old-message {
+                    flex: 1;
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                }
+            }
+            .state-content {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                .state-message {
+                    transform: rotate(270deg);
+                }
+            }
+            .common {
+                flex: 1;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+            }
+        }
+    }
+}

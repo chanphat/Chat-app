@@ -1,0 +1,15 @@
+.side-bar-menu {
+    flex: 1;
+    max-width: 300px;
+    min-width: 20px;
+    flex-direction: column;
+    display: flex;
+    background-color: rgba(240, 244, 248, 1);
+    .bottom-sidebar {
+        flex: 1 1;
+        max-height: 5vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

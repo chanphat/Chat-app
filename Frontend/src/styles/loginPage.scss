@@ -1,0 +1,173 @@
+.wrapper-login {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    .logo-page {
+        height: 20vh;
+        margin-top: 10vh;
+    }
+    .login-form {
+        height: 100%;
+        width: 50%;
+        max-width: 500px;
+        margin: auto;
+        font-size: 2em;
+        .form-group {
+            display: flex;
+            flex-direction: row;
+            margin-bottom: 1em;
+            height: auto;
+
+            label {
+                flex: 3;
+            }
+
+            input {
+                flex: 5;
+                font-size: 0.75em;
+                &:focus, &:hover {
+                    box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+                    border: 1px solid rgba(81, 203, 238, 1);
+                    outline: unset;
+                    border-radius: 5px;
+                }
+            }
+
+            .form-check {
+                display: flex;
+                height: 100%;
+                width: 100%;
+                justify-content: center;
+                align-items: center;
+                .form-check-input {
+                    height: 1.5em;
+                    flex: unset;
+                    width: 1.5em;
+                    padding: unset;
+                    margin: unset;
+                    font-size: inherit;
+                }
+                .form-check-label {
+                    margin-left: 1.5em ;
+                }
+            }
+        }
+        .button-submit {
+            font-size: inherit;
+            padding: 0.25em;
+            color: #fff;
+            background-color: #007bff;
+            border-color: #007bff;
+            border: 1px solid transparent;
+            border-radius: 3px;
+            &:focus, &:hover {
+                box-shadow: 0 0 0 0.2rem rgba(38,143,255,.5);
+            }
+        }
+        .tab-login  {
+            display: flex;
+            justify-content: flex-end;
+            font-size: 0.75em;
+            .sign-up, .forgot-pw {
+                margin-left: 0.5em;
+                &:focus, &:hover, &:active {
+                    border-bottom: 0.2px solid rgba(38,143,255,.5);
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+
+.wraper-signup {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    .title-header {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        font-size: 3em;
+        padding: 2em;
+        font-weight: bold;
+    }
+    .signup-form {
+        height: 100%;
+        width: 50%;
+        max-width: 500px;
+        margin: auto;
+        font-size: 2em;
+        box-shadow: 0 0 0 0.2rem rgba(38,143,255,.5);
+        padding: 2em;
+        border-radius: 1em;
+        .form-group {
+            display: flex;
+            flex-direction: row;
+            margin-bottom: 1em;
+            height: auto;
+
+            label {
+                flex: 3;
+            }
+
+            input {
+                flex: 5;
+                font-size: 0.75em;
+                &:focus, &:hover {
+                    box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+                    border: 1px solid rgba(81, 203, 238, 1);
+                    outline: unset;
+                    border-radius: 5px;
+                }
+            }
+        }
+        .button-submit {
+            font-size: inherit;
+            padding: 0.25em;
+            color: #fff;
+            background-color: #007bff;
+            border-color: #007bff;
+            border: 1px solid transparent;
+            border-radius: 3px;
+            &:focus, &:hover {
+                box-shadow: 0 0 0 0.2rem rgba(38,143,255,.5);
+            }
+        }
+        .tab-login  {
+            display: flex;
+            justify-content: flex-end;
+            font-size: 0.75em;
+            .sign-in, .forgot-pw {
+                margin-left: 0.5em;
+                &:focus, &:hover, &:active {
+                    border-bottom: 0.2px solid rgba(38,143,255,.5);
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+.wrapper-view {
+    .change-lang  {
+        height: 5vh;
+        display: flex;
+        justify-content: flex-end;
+        .lang {
+            flex: 1;
+            max-width: 5vh;
+            margin: 0px 0.5em;
+            &:hover {
+                box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+                border: 1px solid rgba(81, 203, 238, 1);
+                outline: unset;
+                border-radius: 5px;
+            }
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+}
