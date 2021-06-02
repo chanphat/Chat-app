@@ -37,5 +37,5 @@ SQLAlchemy
 Werkzeug==0.15.3
 waitress
 requests==2.23.0
-urllib3==1.25.8
+urllib3==1.26.5
 fpdf==1.7.2
