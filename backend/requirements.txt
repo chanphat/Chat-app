@@ -21,7 +21,7 @@ gunicorn==19.7.1
 itsdangerous==0.24
 Jinja2
 jsonschema==2.6.0
-Mako==1.0.7
+Mako==1.2.2
 # MarkupSafe
 psycopg2==2.7.3.2
 pycparser==2.18
