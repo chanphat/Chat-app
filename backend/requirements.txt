@@ -34,7 +34,7 @@ pytz==2017.3
 selenium==3.8.1
 six==1.11.0
 SQLAlchemy
-Werkzeug==0.15.3
+Werkzeug==0.15.5
 waitress
 requests==2.23.0
 urllib3==1.25.8
